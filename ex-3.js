@@ -8,9 +8,11 @@ const todos = [
 
 function getTodoTopics(todos) {
   // Start coding here
+  const topics = todos.map((todo) => todo.topic);
+  return topics;
 }
 
-getTodoTopics(todos);
+console.log(getTodoTopics(todos));
 
 /* 
 	Output:
